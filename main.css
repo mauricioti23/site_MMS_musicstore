@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menuempresa {
+    width: fit-content;
+    text-align: right;
+    padding-right: 1cm;
+    padding-bottom: 1cm;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.menuequipamentos li {
+    width: fit-content;
+    display: inline;
+    padding-left: 3cm;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding-top: 1cm;
+    font-size: large;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: lowercase;
+
+}
+
+#menuequipamentos li a {
+    color: white;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 30px;
+    padding-bottom: 1cm;
+}
+
+.container {
+    width: 1210px;
+    margin: 0 auto;
+
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+h2 {
+    color: rgb(163, 48, 57);
+    font-style: italic;
+    text-decoration: overline;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p {
+    margin-top: 1cm;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.articles article h3 {
+    font-size: 20px;
+}
+
+section h2 {
+    font-size: 32px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.menuempresa article p {
+    text-align: center;
+}
+
+.menuempresa article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    margin-left: 12cm;
+    padding: 8px;
+    justify-content: center;
+    resize: none;
+    text-align: center;
+}
+
+
+.menuempresa h3 {
+    text-align: center;
+    margin-left: 12cm;
+}
+
+.social-links img,
+h3 {
+    height: 24px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: goldenrod;
+    padding: 16px 0;
+    text-align: center;
+    font-family: "Tilt Neon", sans-serif;
+}
